@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  margin: auto;
+  max-width: 1024px;
+  min-height: 100vh;
+  background-color: #f5e3cb;
+}
+/*nav bar */
+.bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ec407a;
+}
+.bar li {
+  float: right;
+}
+.bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #333;
+  transition: background-color 0.4s;
+}
+/*nav bar */
+/*welcome*/
+.welcome {
+    text-align: center;
+    font-size: 32px;
+    margin: 24px;
+}
+.select-tao {
+    text-align: center;
+    font-size: 24px;
+    margin: 18px;
+}
+
+/*wecome*/
+/* item*/
+.items-row {
+    display: flex;
+    min-height: 80px;
+    justify-content: center;
+    gap: 16px;
+    color: white;
+}
+.items-row .item {
+    display: flex;
+    border: 1px solid;
+    
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8bbd0;
+    color: green;
+    margin: 10px;
+    
+    
+}
+.item p {
+    color: white;
+}
+div p:hover:not(.active) {
+    color: black;
+}
+.items-row .item:hover:not(.active){
+    background-color: #ec407a;
+    transition: background-color 1.2s;
+}
+.wImg {
+    width: 50x;
+    height: 50px;
+  }
+
+/*item */ 

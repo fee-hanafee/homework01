@@ -1,0 +1,6 @@
+.env
+temp/
+.DS*.*
+index.html
+styles.css
+pic/
